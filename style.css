@@ -164,6 +164,13 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    background: url("./images/bg-mobile.png") no-repeat;
+    background-size: cover;
+  }
+  .cover {
+    display: none;
+  }
   .label {
     right: 30%;
   }
